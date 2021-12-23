@@ -15,3 +15,6 @@ C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.csproj.CoreCompileInputs
 C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.csproj.CopyComplete
 C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.exe
 C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.pdb
+C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.Form2Hotel.resources
+C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.Form3Habitacion.resources
+C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.Form1Reservas.resources

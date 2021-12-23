@@ -70,11 +70,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dato\Habitaciones.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1Reservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1Reservas.Designer.cs">
+      <DependentUpon>Form1Reservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2Hotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2Hotel.Designer.cs">
+      <DependentUpon>Form2Hotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3Habitacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3Habitacion.Designer.cs">
+      <DependentUpon>Form3Habitacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4Temporada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4Temporada.Designer.cs">
+      <DependentUpon>Form4Temporada.cs</DependentUpon>
     </Compile>
     <Compile Include="Modelo\Habitacion.cs">
       <DependentUpon>HotelesModelo.tt</DependentUpon>
@@ -110,6 +135,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1Reservas.resx">
+      <DependentUpon>Form1Reservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2Hotel.resx">
+      <DependentUpon>Form2Hotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3Habitacion.resx">
+      <DependentUpon>Form3Habitacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -175,8 +209,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dato\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
