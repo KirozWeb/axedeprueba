@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HotelesModelStoreContainer" CdmEntityContainer="HotelesEntities">
+    <EntitySetMapping Name="Habitacion">
+      <EntityTypeMapping TypeName="HotelesModel.Habitacion">
+        <MappingFragment StoreEntitySet="Habitacion">
+          <ScalarProperty Name="IdHabitacion" ColumnName="IdHabitacion" />
+          <ScalarProperty Name="IdCategoria" ColumnName="IdCategoria" />
+          <ScalarProperty Name="Dimension" ColumnName="Dimension" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="Disponibilidad" ColumnName="Disponibilidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hotel">
+      <EntityTypeMapping TypeName="HotelesModel.Hotel">
+        <MappingFragment StoreEntitySet="Hotel">
+          <ScalarProperty Name="IdHotel" ColumnName="IdHotel" />
+          <ScalarProperty Name="NombreHotel" ColumnName="NombreHotel" />
+          <ScalarProperty Name="NumHabitaciones" ColumnName="NumHabitaciones" />
+          <ScalarProperty Name="Ciudad" ColumnName="Ciudad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reserva">
+      <EntityTypeMapping TypeName="HotelesModel.Reserva">
+        <MappingFragment StoreEntitySet="Reserva">
+          <ScalarProperty Name="IdReserva" ColumnName="IdReserva" />
+          <ScalarProperty Name="IdHotel" ColumnName="IdHotel" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdHabitacion" ColumnName="IdHabitacion" />
+          <ScalarProperty Name="IdTemporada" ColumnName="IdTemporada" />
+          <ScalarProperty Name="FechaReservacion" ColumnName="FechaReservacion" />
+          <ScalarProperty Name="FechaActual" ColumnName="FechaActual" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table">
+      <EntityTypeMapping TypeName="HotelesModel.Table">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Temporada">
+      <EntityTypeMapping TypeName="HotelesModel.Temporada">
+        <MappingFragment StoreEntitySet="Temporada">
+          <ScalarProperty Name="IdTemporada" ColumnName="IdTemporada" />
+          <ScalarProperty Name="NombreTemporada" ColumnName="NombreTemporada" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFinal" ColumnName="FechaFinal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

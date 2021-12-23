@@ -1,0 +1,17 @@
+C:\MOOC\axede\ProyectoHoteles\bin\Debug\Hoteles.mdf
+C:\MOOC\axede\ProyectoHoteles\bin\Debug\Hoteles_log.ldf
+C:\MOOC\axede\ProyectoHoteles\bin\Debug\ProyectoHoteles.exe.config
+C:\MOOC\axede\ProyectoHoteles\bin\Debug\ProyectoHoteles.exe
+C:\MOOC\axede\ProyectoHoteles\bin\Debug\ProyectoHoteles.pdb
+C:\MOOC\axede\ProyectoHoteles\bin\Debug\EntityFramework.dll
+C:\MOOC\axede\ProyectoHoteles\bin\Debug\EntityFramework.SqlServer.dll
+C:\MOOC\axede\ProyectoHoteles\bin\Debug\EntityFramework.xml
+C:\MOOC\axede\ProyectoHoteles\bin\Debug\EntityFramework.SqlServer.xml
+C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.csproj.AssemblyReference.cache
+C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.Form1.resources
+C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.Properties.Resources.resources
+C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.csproj.GenerateResource.cache
+C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.csproj.CoreCompileInputs.cache
+C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.csproj.CopyComplete
+C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.exe
+C:\MOOC\axede\ProyectoHoteles\obj\Debug\ProyectoHoteles.pdb
